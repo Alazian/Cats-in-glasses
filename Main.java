@@ -12,6 +12,7 @@ public class Main {
         example();
         methodRobert(2.4,4.5);
         methodIngrid(10,3);
+        methodIngrid(10,3);
 
 
     }
@@ -35,6 +36,12 @@ public class Main {
          System.out.println("sum of "+number1+" + "+number2+" devided by numebr of factors = "+sum);
      }
      public static void methodIngrid(int a, int b){
+         // author Ingrid Castro.
+         // method will subtract two numbers.
+      int result = a - b;
+      System.out.println("The subtraction of the values is equal to "+result);
+    }
+    public static void methodIngrid(int a, int b){
          // author Ingrid Castro.
          // method will subtract two numbers.
       int result = a - b;
