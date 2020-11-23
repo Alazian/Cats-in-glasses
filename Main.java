@@ -40,5 +40,11 @@ public class Main {
       int result = a - b;
       System.out.println("The subtraction of the values is equal to "+result);
     }
+    public static void methodIngrid(int a, int b){
+         // author Ingrid Castro.
+         // method will subtract two numbers.
+      int result = a - b;
+      System.out.println("The subtraction of the values is equal to "+result);
+    }
 }
 
