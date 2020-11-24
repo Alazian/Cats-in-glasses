@@ -9,6 +9,7 @@ public class Main {
         methodSkylar (68,91);
         methodBinderiya (25,35);
         methodMarcelo (16,23);
+        methodYuri(15);
     
     }
     
@@ -115,6 +116,24 @@ public class Main {
         catch (Exception e) { 
                         System.out.println("Error! This is not a number");  
                 }
+    }
+
+public static void methodYuri(int num1){
+    //Author Yuri
+        Scanner scanObject = new Scanner (System.in);
+
+        try{
+
+        System.out.println("Please enter a number to divide it by 5.");
+          num1 = scanObject.nextInt();
+
+          int total = num1 * 5;
+
+          System.out.println(+num1 + " multiplied by 5 is equal to " + total);
+        }
+
+        catch (Exception e) {
+          System.out.println("Please enter a valid number above 0");
     }
    } 
 
