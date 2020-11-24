@@ -15,6 +15,7 @@ public class Main {
         methodFelipe (47,63);
         methodSkylar (68,91);
         methodBinderiya (25,35);
+        methodMarcelo (16,23);
     }
     public static void yourMethod(){
        /* Add your code here
@@ -97,4 +98,28 @@ public class Main {
      
             
    }
+
+ public static void MethodMarcelo(String[] args) {
+     
+        BufferedReader bf= new BufferedReader (new InputStreamReader (System.in));
+
+
+        try{
+
+        System.out.println(" Enter a number");
+        int number1 = Integer.parseInt (bf.readLine());
+
+        System.out.println(" Enter a second number:");
+        int number2 = Integer.parseInt (bf.readLine());
+
+        int sum = number1 + number2 ;
+
+        System.out.println ("The sum of"   + number1 + "and" + number2 + "is" + sum);}
+
+
+        catch (Exception e) { 
+                        System.out.println("Error! This is not a number");  
+                }
+    }
+   } 
 
