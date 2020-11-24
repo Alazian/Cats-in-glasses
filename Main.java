@@ -1,6 +1,6 @@
 package com.company;
 
-//import jdk.javadoc.internal.doclets.formats.html.SourceToHTMLConverter;
+import jdk.javadoc.internal.doclets.formats.html.SourceToHTMLConverter;
 import java.util.*;
 
 public class Main {
@@ -49,31 +49,8 @@ public class Main {
       System.out.println(+num1 + "multiplied by 5 is equal to" + total);
      }
 }
- /**
-   
-     
-    public static void MethodFelipe[] args) {
-     BufferedReader bf= new BufferedReader (new InputStreamReader (System.in));
-       try{
-            
-        System.out.println(" Enter First number:");
-        int number1 = Integer.parseInt (bf.readLine()); // method will ask to enter a number
-        
-        System.out.println(" Enter second number:");
-        int number2 = Integer.parseInt (bf.readLine());
-        
-        int sum = number1 + number2 ; // method will calculate the two number and sum it. 
-        
-        System.out.println ("The sum of " + number1 + "and" + number2 + "is" + sum);}
-   
-        catch (Exception e) { 
-        System.out.println("error this is not a number");  // if not possible calculate system show error 
-                }
-    }
-   }
-*/
-    public static void methodYuri(int num1){
-        int num1=0;
+ 
+        public static void methodYuri(int num1){
         Scanner scanObject = new Scanner (System.in);
 
         try{
@@ -83,7 +60,7 @@ public class Main {
 
           int total = num1 * 5;
 
-          System.out.println(+num1 + "multiplied by 5 is equal to" + total);
+          System.out.println(+num1 + " multiplied by 5 is equal to " + total);
         }
 
         catch (Exception e) {
