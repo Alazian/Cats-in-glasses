@@ -14,7 +14,7 @@ public class Main {
         methodIngrid(10,3);
         methodFelipe (47,63);
         methodSkylar (68,91);
-
+        methodBinderiya (25,35);
     }
     public static void yourMethod(){
        /* Add your code here
@@ -88,7 +88,13 @@ public class Main {
         catch (Exception e){
             System.out.println("ERROR!! That was not a number");
         
-        }
+        } public static void methodBinderiya( int num1, int num2){
+         // author Binderiya Enkhbayar.
+         // method will multiply two numbers.
+         int product = num1 * num2;
+         System.out.println("Output: "+product);
+    }
+     
             
    }
 
