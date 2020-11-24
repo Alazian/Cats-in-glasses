@@ -39,28 +39,12 @@ public class Main {
          // method will subtract two numbers.
       int result = a - b;
       System.out.println("The subtraction of the values is equal to "+result);
-    }
-}
- /**
-   
-     */
-    public static void MethodFelipe[] args) {
-     BufferedReader bf= new BufferedReader (new InputStreamReader (System.in));
-       try{
-            
-        System.out.println(" Enter First number:");
-        int number1 = Integer.parseInt (bf.readLine()); // method will ask to enter a number
-        
-        System.out.println(" Enter second number:");
-        int number2 = Integer.parseInt (bf.readLine());
-        
-        int sum = number1 + number2 ; // method will calculate the two number and sum it. 
-        
-        System.out.println ("The sum of " + number1 + "and" + number2 + "is" + sum);}
-   
-        catch (Exception e) { 
-                        System.out.println("error this is not a number");  // if not possible calculate system show error 
-                }
+     }
+     public static void methodFelipe(int number1, int number2) {
+         // author Felipe Santos 
+         // method will calculate the two number and sum it. 
+       int sum = number1 + number2 ; // method will calculate the two number and sum it. 
+       System.out.println ("The sum of " + number1 + "and" + number2 + "is" + sum);}   
     }
    }
 
