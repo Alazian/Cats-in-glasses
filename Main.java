@@ -95,7 +95,8 @@ public class Main {
    }
 
  public static void MethodMarcelo(String[] args) {
-     // Author Marcelo 
+     
+        // Author Marcelo Marques  
      
         BufferedReader bf= new BufferedReader (new InputStreamReader (System.in));
 
@@ -108,7 +109,7 @@ public class Main {
         System.out.println(" Enter a second number:");
         int number2 = Integer.parseInt (bf.readLine());
 
-        int sum = number1 + number2 ;
+        int sum = number1 - number2 ;
 
         System.out.println ("The sum of"   + number1 + "and" + number2 + "is" + sum);}
 
