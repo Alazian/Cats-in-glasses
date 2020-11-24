@@ -1,21 +1,17 @@
-package com.company;
-
-import jdk.javadoc.internal.doclets.formats.html.SourceToHTMLConverter;
 
 public class Main {
 
     public static void main(String[] args) {
 
-
-      
-       
         methodRobert(2.4,4.5);
         methodIngrid(10,3);
         methodFelipe (47,63);
         methodSkylar (68,91);
         methodBinderiya (25,35);
         methodMarcelo (16,23);
+    
     }
+    
     public static void yourMethod(){
        /* Add your code here
         it might be whatever you need
@@ -33,36 +29,37 @@ public class Main {
          double sum = (number1+number2)/2;
          System.out.println("sum of "+number1+" + "+number2+" devided by numebr of factors = "+sum);
      }
-     public static void methodIngrid(int a, int b){
+     
+    public static void methodIngrid(int a, int b){
          // author Ingrid Castro.
          // method will subtract two numbers.
       int result = a - b;
       System.out.println("The subtraction of the values is equal to "+result);
     }
 
-
-    public static void MethodFelipe[] args) {
+     public static void MethodFelipe[] args) {
+         // Author Felipe 
      BufferedReader bf= new BufferedReader (new InputStreamReader (System.in));
-       try{
-            
-        System.out.println(" Enter First number:");
-        int number1 = Integer.parseInt (bf.readLine()); // method will ask to enter a number
+       
+         try{   
+            System.out.println(" Enter First number:");
+            int number1 = Integer.parseInt (bf.readLine()); // method will ask to enter a number
         
-        System.out.println(" Enter second number:");
-        int number2 = Integer.parseInt (bf.readLine());
+            System.out.println(" Enter second number:");
+            int number2 = Integer.parseInt (bf.readLine());
         
-        int sum = number1 + number2 ; // method will calculate the two number and sum it. 
+            int sum = number1 + number2 ; // method will calculate the two number and sum it. 
         
-        System.out.println ("The sum of " + number1 + "and" + number2 + "is" + sum);}
+            System.out.println ("The sum of " + number1 + "and" + number2 + "is" + sum);}
    
-        catch (Exception e) { 
+        }catch (Exception e) { 
                         System.out.println("error this is not a number");  // if not possible calculate system show error 
-                }
-    }
+         }
+       }
         
         
-        */
         public static void MethodSkylar(String[] args) {
+            // Author Skylar 
        
         Scanner Sc = new Scanner(System.in);
         
@@ -79,12 +76,14 @@ public class Main {
         int divide = num1 / num2;
         
         System.out.printf("The answer for the division is %d\n ", divide);
-        }
+        
         
         catch (Exception e){
             System.out.println("ERROR!! That was not a number");
-        
-        } public static void methodBinderiya( int num1, int num2){
+        }
+        }     
+            
+        public static void methodBinderiya( int num1, int num2){
          // author Binderiya Enkhbayar.
          // method will multiply two numbers.
          int product = num1 * num2;
@@ -95,6 +94,7 @@ public class Main {
    }
 
  public static void MethodMarcelo(String[] args) {
+     // Author Marcelo 
      
         BufferedReader bf= new BufferedReader (new InputStreamReader (System.in));
 
