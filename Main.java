@@ -41,7 +41,7 @@ public class Main {
       int result = a - b;
       System.out.println("The subtraction of the values is equal to "+result);
     }
-}
+
  /**
    
      */
