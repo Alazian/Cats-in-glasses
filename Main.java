@@ -7,9 +7,8 @@ public class Main {
     public static void main(String[] args) {
 
 
-        // to call a method
-        // <yourMethodName>();
-        example();
+      
+       
         methodRobert(2.4,4.5);
         methodIngrid(10,3);
         methodFelipe (47,63);
@@ -26,9 +25,7 @@ public class Main {
         */
     }
 
-     public static void example(){
-         System.out.println("Example method");
-     }
+  
      public static void methodRobert (double number1,double number2){
          // author Robert Szlufik 
          // method will add two numbers entered when method is called,
@@ -43,9 +40,7 @@ public class Main {
       System.out.println("The subtraction of the values is equal to "+result);
     }
 
- /**
-   
-     */
+
     public static void MethodFelipe[] args) {
      BufferedReader bf= new BufferedReader (new InputStreamReader (System.in));
        try{
