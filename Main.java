@@ -13,6 +13,7 @@ public class Main {
         methodRobert(2.4,4.5);
         methodIngrid(10,3);
         methodFelipe (47,63);
+        methodSkylar (68,91);
 
     }
     public static void yourMethod(){
@@ -39,12 +40,55 @@ public class Main {
          // method will subtract two numbers.
       int result = a - b;
       System.out.println("The subtraction of the values is equal to "+result);
-     }
-     public static void methodFelipe(int number1, int number2) {
-         // author Felipe Santos 
-         // method will calculate the two number and sum it. 
-       int sum = number1 + number2 ; // method will calculate the two number and sum it. 
-       System.out.println ("The sum of " + number1 + "and" + number2 + "is" + sum);}   
     }
+}
+ /**
+   
+     */
+    public static void MethodFelipe[] args) {
+     BufferedReader bf= new BufferedReader (new InputStreamReader (System.in));
+       try{
+            
+        System.out.println(" Enter First number:");
+        int number1 = Integer.parseInt (bf.readLine()); // method will ask to enter a number
+        
+        System.out.println(" Enter second number:");
+        int number2 = Integer.parseInt (bf.readLine());
+        
+        int sum = number1 + number2 ; // method will calculate the two number and sum it. 
+        
+        System.out.println ("The sum of " + number1 + "and" + number2 + "is" + sum);}
+   
+        catch (Exception e) { 
+                        System.out.println("error this is not a number");  // if not possible calculate system show error 
+                }
+    }
+        
+        
+        */
+        public static void MethodSkylar(String[] args) {
+       
+        Scanner Sc = new Scanner(System.in);
+        
+        int num1, num2;
+        
+        try{
+        
+        System.out.println("Enter a number");
+        num1 = Sc.nextInt();
+        
+        System.out.println("Enter another number");
+        num2 = Sc.nextInt();
+                       
+        int divide = num1 / num2;
+        
+        System.out.printf("The answer for the division is %d\n ", divide);
+        }
+        
+        catch (Exception e){
+            System.out.println("ERROR!! That was not a number");
+        
+        }
+            
    }
 
