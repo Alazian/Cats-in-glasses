@@ -1,6 +1,7 @@
 package com.company;
 
-import jdk.javadoc.internal.doclets.formats.html.SourceToHTMLConverter;
+//import jdk.javadoc.internal.doclets.formats.html.SourceToHTMLConverter;
+import java.util.*;
 
 public class Main {
 
@@ -13,6 +14,7 @@ public class Main {
         methodRobert(2.4,4.5);
         methodIngrid(10,3);
         methodFelipe (47,63);
+        methodYuri (15);
 
     }
     public static void yourMethod(){
@@ -40,10 +42,16 @@ public class Main {
       int result = a - b;
       System.out.println("The subtraction of the values is equal to "+result);
     }
+     public static void methodYuri(int num1){
+         // author Yuri Noronha de Oliveira
+         // Method will request a number and mutiply it by 5.
+      int total = num1 * 5;   
+      System.out.println(+num1 + "multiplied by 5 is equal to" + total);
+     }
 }
  /**
    
-     */
+     
     public static void MethodFelipe[] args) {
      BufferedReader bf= new BufferedReader (new InputStreamReader (System.in));
        try{
@@ -59,8 +67,26 @@ public class Main {
         System.out.println ("The sum of " + number1 + "and" + number2 + "is" + sum);}
    
         catch (Exception e) { 
-                        System.out.println("error this is not a number");  // if not possible calculate system show error 
+        System.out.println("error this is not a number");  // if not possible calculate system show error 
                 }
     }
    }
+*/
+    public static void methodYuri(int num1){
+        int num1=0;
+        Scanner scanObject = new Scanner (System.in);
 
+        try{
+
+        System.out.println("Please enter a number to divide it by 5.");
+          num1 = scanObject.nextInt();
+
+          int total = num1 * 5;
+
+          System.out.println(+num1 + "multiplied by 5 is equal to" + total);
+        }
+
+        catch (Exception e) {
+          System.out.println("Please enter a valid number above 0");
+    }
+}
